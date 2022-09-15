@@ -1,12 +1,8 @@
 program kasir_bus
 
 deklarasi
-kdjurusan1,kdjurusan2,kdjurusan3,
-namajr1,namajr2,namajr3,
-nmpembeli,jurusan : integer.
-harga1,harga2,harga3,nokursi,
-harga,totalharga,jmltiket,
-uangbayar,uangkembali : string.
+kdjurusan1,kdjurusan2,kdjurusan3,namajr1,namajr2,namajr3,nmpembeli,jurusan : integer
+harga1,harga2,harga3,nokursi,harga,totalharga,jmltiket,uangbayar,uangkembali : string.
 
 
 input:namajr1,namajr2,namajr3,
