@@ -4,7 +4,8 @@ deklarasi
 kdjurusan1,kdjurusan2,kdjurusan3,namajr1,namajr2,namajr3,nmpembeli,jurusan : integer
 harga1,harga2,harga3,nokursi,harga,totalharga,jmltiket,uangbayar,uangkembali : string
 
-eskripsi
+
+deskripsi
 begin
 write ("Masukan nama pembeli : ");
 write ("Masukan nomer kursi : ");
@@ -27,3 +28,22 @@ write ("Masukan jumlah tiket : ");
 jmltiket = ok.nextInt();
 
 totalharga = harga * jumlahbrg
+
+write (" Masukan uang yang dibayar : ");
+uangbayar = ok.nextInt();
+
+uangkembali = uangbayar - totalharga
+
+write ("=========================")
+write ("BUS PARIWISARA DEWANTARA")
+write ("=========================")
+write ("Berikut informasi tiket bus anda")
+write/n ("nokursi)
+write/n ("kdjurusan")
+write/n ("namajurusan")
+write/n ("jmltiket")
+write/n ("totalharga")
+write/n ("uangbayar")
+write/n ("uangkembali")
+
+end
