@@ -1,10 +1,17 @@
 program kasir_bus
 
 deklarasi
-kdjurusan1,kdjurusan2,kdjurusan3,namajr1,namajr2,namajr3,nmpembeli,jurusan : integer
-harga1,harga2,harga3,nokursi,harga,totalharga,jmltiket,uangbayar,uangkembali : string
+kdjurusan1,kdjurusan2,kdjurusan3,
+namajr1,namajr2,namajr3,
+nmpembeli,jurusan : integer.
+harga1,harga2,harga3,nokursi,
+harga,totalharga,jmltiket,
+uangbayar,uangkembali : string.
 
 
+input:namajr1,namajr2,namajr3,
+kdjurusan1,kdjurusan2,kdjurusan3,
+nokursi,jmltiket
 deskripsi
 begin
 write ("Masukan nama pembeli : ");
@@ -27,7 +34,7 @@ else :
 write ("Masukan jumlah tiket : ");
 jmltiket = ok.nextInt();
 
-totalharga = harga * jumlahbrg
+totalharga = harga * jmltiket
 
 write (" Masukan uang yang dibayar : ");
 uangbayar = ok.nextInt();
