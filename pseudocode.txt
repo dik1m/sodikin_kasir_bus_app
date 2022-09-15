@@ -1,0 +1,56 @@
+program kasir_bus
+
+deklarasi
+kdjurusan1,kdjurusan2,kdjurusan3,
+namajr1,namajr2,namajr3,
+nmpembeli,jurusan : integer.
+harga1,harga2,harga3,nokursi,
+harga,totalharga,jmltiket,
+uangbayar,uangkembali : string.
+
+
+input:namajr1,namajr2,namajr3,
+kdjurusan1,kdjurusan2,kdjurusan3,
+nokursi,jmltiket
+deskripsi
+begin
+write ("Masukan nama pembeli : ");
+write ("Masukan nomer kursi : ");
+write ("Masukan jurusan JKT/BDG/Antar_kota : ");
+
+if kdjurusan == JKT
+   namajr = Jakarta
+   harga = 95000
+
+elif kdjurusan ==  BDG
+   namajr = Bandung
+   harga = 90000
+
+else :
+   namajr = Antar_kota
+   harga = 80000
+   
+
+write ("Masukan jumlah tiket : ");
+jmltiket = ok.nextInt();
+
+totalharga = harga * jmltiket
+
+write (" Masukan uang yang dibayar : ");
+uangbayar = ok.nextInt();
+
+uangkembali = uangbayar - totalharga
+
+write ("=========================")
+write ("BUS PARIWISARA DEWANTARA")
+write ("=========================")
+write ("Berikut informasi tiket bus anda")
+write/n ("nokursi)
+write/n ("kdjurusan")
+write/n ("namajurusan")
+write/n ("jmltiket")
+write/n ("totalharga")
+write/n ("uangbayar")
+write/n ("uangkembali")
+
+end
