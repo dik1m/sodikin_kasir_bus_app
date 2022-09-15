@@ -10,3 +10,46 @@ begin
 write ("Masukan nama pembeli : ");
 write ("Masukan nomer kursi : ");
 write ("Masukan jurusan JKT/BDG/Antar_kota : ");
+
+deskripsi
+begin
+write ("Masukan nama pembeli : ");
+write ("Masukan nomer kursi : ");
+write ("Masukan jurusan JKT/BDG/Antar_kota : ");
+
+if kdjurusan == JKT
+   namajr = Jakarta
+   harga = 95000
+
+elif kdjurusan ==  BDG
+   namajr = Bandung
+   harga = 90000
+
+else :
+   namajr = Antar_kota
+   harga = 80000
+   
+
+write ("Masukan jumlah tiket : ");
+jmltiket = ok.nextInt();
+
+totalharga = harga * jumlahbrg
+
+write (" Masukan uang yang dibayar : ");
+uangbayar = ok.nextInt();
+
+uangkembali = uangbayar - totalharga
+
+write ("=========================")
+write ("BUS PARIWISARA DEWANTARA")
+write ("=========================")
+write ("Berikut informasi tiket bus anda")
+write/n ("nokursi)
+write/n ("kdjurusan")
+write/n ("namajurusan")
+write/n ("jmltiket")
+write/n ("totalharga")
+write/n ("uangbayar")
+write/n ("uangkembali")
+
+end
